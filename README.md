@@ -402,3 +402,10 @@ PSEUDo CLASSES FOR LINKS
 		font-style: italic;
 	}
 
+RESOLVING CONFLICTING DECLARATIONS
+---
+
+<img src="https://i.ibb.co/3N3fkRN/image.png" alt="image" border="0">
+
+---
+
