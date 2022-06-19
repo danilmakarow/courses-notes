@@ -90,6 +90,8 @@ you will notice that the text in the first image gives the interface a completel
 
 <details><summary><strong> COLORS </strong></summary>
 
+# Цвет
+
 По цвету важная теория - the color theory. Но для создания ебейших дизайнов она не обязательна
 
 <strong>1. Make the main color match your website’s personality: colors convey meaning!</strong>
