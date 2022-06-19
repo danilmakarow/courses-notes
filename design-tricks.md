@@ -86,11 +86,39 @@ you will notice that the text in the first image gives the interface a completel
 
 Интервал: Мне пока не понятно, но в целом на визуал лучше експерементировать с ним.
 
-
-
-
-
-
-
-
 </details>
+
+<details><summary><strong> COLORS </strong></summary>
+
+По цвету важная теория - the color theory. Но для создания ебейших дизайнов она не обязательна
+
+<strong>1. Make the main color match your website’s personality: colors convey meaning!</strong>
+  
+Первым - подобрать цвет согласно личности сайта.
+
+<img src="https://i.ibb.co/vkbgcSK/image.png" alt="image" border="0">
+
+На что можно обратить внимание - синий. Синий ассоциируется с миром, надежностью и профессионализмом. Что часто и требуеться, тем более это работает! (По словам Джонаса)
+
+<strong>2. Use a good color tone! Don’t choose a random tone or CSS named colors.</strong>
+
+Дальше - подобрать оттенок. Самому - хуйня идея, есть тулы для этого.
+  
+Классные тулы для подборов оттенков: <a href="https://yeun.github.io/open-color/">yeun.github.io/open-color</a> & <a href="https://tailwindcss.com/docs/customizing-colors">tailwindcss.com</a> & <a href="https://flatuicolors.com/">flatuicolors</a> 
+
+<strong>
+3. You need at least two types of colors in your color palette: a main color and a grey color
+4. With more experience, you can add more colors: accent (secondary) colors (use a tool)  
+</strong>
+
+Определиться с цветами для разных елементов.
+
+<img src="https://i.ibb.co/jkLVpJc/image.png" alt="image" border="0">
+
+Есть два цвета - основной и серый. Серый - любой сильно затемнённый цвет. Так же юзается для текста. С опытом можно брать ещё один дополнительный цвет. Но доп цвет должен быть связан и подходить предыдущим. Именно для этого и есть тулы выше.
+
+Для разных елементов на странице - текстов, кнопок, нужны оттенки светлее и тусклее выбранных цветов. 
+
+<img src="https://i.ibb.co/w7vQhfY/image.png" alt="image" border="0" width=40%>
+
+В тулах ранее это уже есть. Если по какой-то причине нету - есть <a href="https://maketintsandshades.com/">maketintsandshades</a>
