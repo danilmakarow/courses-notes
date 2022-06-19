@@ -122,6 +122,8 @@ you will notice that the text in the first image gives the interface a completel
 
 Тулы для подбора допцвета: <a href="http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF">paletton</a> & <a href="https://coolors.co/contrast-checker/112a46-acc8e5">coolors</a> 
 
+---
+
 <strong>5. For diversity, create lighter and darker “versions” (tints and shades)</strong>
 
 Для разных елементов на странице - текстов, кнопок, нужны оттенки светлее и тусклее выбранных цветов. 
@@ -130,31 +132,45 @@ you will notice that the text in the first image gives the interface a completel
 
 В тулах ранее это уже есть. Если по какой-то причине нету - есть <a href="https://maketintsandshades.com/">maketintsandshades</a>
 
+---
+
 <strong>6. Use your main color to draw attention to the most important elements on the page</strong>
 
 Как правило можно выделять кнопки призыва к действию, и используют в лого
+
+---
 
 <strong>7. Use colors to add interesting accents or make entire components or sections stand out</strong>
 
 Выделить слово или секцию тоже можно отдельным цветом
 
+---
+
 <strong> 8. You can try to use your color strategically in images and illustrations </strong>
 
 Попробовать найти картинки с палитрой сайта - или наоборот.
+
+---
   
 <strong>9. On dark colored backgrounds, try to use a tint of the background (“lighter version”) for text</strong>
   
 Можно использовать более светлую версию цвета фона для текста на нём.
+
+---
   
 <strong>10. Text should usually not be completely black. Lighten it up it looks heavy and uninviting</strong>
   
 Строго чёрный текст смотриться тяжелым. Лучше использовать серый или тёмные версии других цветов.
+
+---
   
 <strong>11. ♿ Don’t make text too light! Use a tool to check contrast between text and background colors </strong>
 
 Если разница между текстом и фоном будет не большая, не все смогут прочитать. (<a href="https://coolors.co/contrast-checker/112a46-acc8e5">coolors для этого</a> )
 
-Эта куча привил - крайне важные, про общий визуал. Без их соблюдения сайт не будет выглядеть проффесионально. На презентации много примеров к каждому правилу, крайне полезные для насмотренности. Страницы: 115-124.
+---
+
+ ### Эта куча привил - крайне важные, про общий визуал. Без их соблюдения сайт не будет выглядеть проффесионально. На презентации много примеров к каждому правилу, крайне полезные для насмотренности. Страницы: 115-124.
 
 
 
