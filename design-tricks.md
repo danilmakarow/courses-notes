@@ -189,7 +189,7 @@ you will notice that the text in the first image gives the interface a completel
 
 # ФОТКИ
 
-### Какие использовать фото?
+## Какие использовать фото?
  
 <strong>1. Different types of images: product photos, storytelling photos, illustrations, patterns</strong>
  
@@ -223,7 +223,7 @@ Storytelling photos - фото как кто-то использует прод�
 
 ---
 
-### Как использовать фото?
+## Как использовать фото?
 
 <strong>4. Try to show real people to trigger user’s emotions</strong>
 
@@ -243,7 +243,7 @@ Storytelling photos - фото как кто-то использует прод�
 
 ---
 
-### Как совмещать текст и фотки?
+## Как совмещать текст и фотки?
 
 <strong>7. Method #1: Darker or brighten image (completely or partially, using a gradient)</strong>
   
@@ -263,7 +263,7 @@ Storytelling photos - фото как кто-то использует прод�
 
 ---
 
-### Техничесские нюансы использования фоток
+## Техничесские нюансы использования фоток
 
 <strong>10. To account for high-res screens, make image dimensions 2x as big as their displayed size</strong>
 
