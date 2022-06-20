@@ -185,7 +185,104 @@ you will notice that the text in the first image gives the interface a completel
 </details>
 
 
+<details><summary><strong> IMAGES & ILLUSTRATIONS </strong></summary>
 
+# ФОТКИ
 
+### Какие использовать фото?
+ 
+<strong>1. Different types of images: product photos, storytelling photos, illustrations, patterns</strong>
+ 
+Есть 4 вида фото на сайтах: фото продукта, storytelling photos, илюстрации, паттерны. Есть фото с примерами на презентации - 126 страница. Лучше обратиться туда за примерами.
 
+Фото продукта - очевидно, фото услуги, товара
 
+Storytelling photos - фото как кто-то использует продукт, или связан с продуктом. Так же может нести месседж, который хотят донести маркетологи. Они применяются везде и самые важные среди всех фото на сайте.
+
+Илюстрации - Несут роль как сторителл, и придают больше индивидуальности сайту.
+
+Паттерны - юзают больше как фон для секций,  для создание на сайте больше креатива и визуальных особенностей. Важно не переборщить с количеством
+
+---
+
+<strong>2. Use images to support your website’s message and story. So only use relevant images!</strong>
+
+Используйте только соответствующие месседжу и истории сайта изображения. 
+
+---
+
+<strong>3. Prefer original images. If not possible, use original-looking stock images (not generic ones!)</strong>
+
+Брать или проф фотки самого продукта, или оригинальные профисиональные с сайтов. Не юзать общие странные фото, а брать именно професиональные фото продукта.
+
+Для этого есть специальные тулы: 
+
+Список всех на странице с ресурсами. Выделить стоит эту тулу: 
+
+<strong> https://unsplash.com/ </strong>
+
+---
+
+### Как использовать фото?
+
+<strong>4. Try to show real people to trigger user’s emotions</strong>
+
+В целом очевидно, примеры в пдф
+
+---
+
+<strong>5. If necessary, crop images to fit your message</strong>
+
+В целом очевидно, примеры в пдф
+
+---
+
+<strong>6. Experiment combining photos, illustrations and patterns</strong>
+
+В целом очевидно, примеры в пдф
+
+---
+
+### Как совмещать текст и фотки?
+
+<strong>7. Method #1: Darker or brighten image (completely or partially, using a gradient)</strong>
+  
+Затемнить / засветлить фотку для видимости текста на ней. Или с помощью градиента затемнить часть, тоже для видимости текста.
+
+---
+
+<strong>8. Method #2: Position text into neutral image area</strong>
+
+Поместить текст в нейтральном месте на фото, то есть однотонном и без продукта, посыла.
+
+---
+
+<strong>9. Method #3: Put text in a box</strong>
+
+Использовать текст на фоне, боксе поверх фото. Просто и лаконично. Будет ещё круче сделать box прозрачным :D
+
+---
+
+### Техничесские нюансы использования фоток
+
+<strong>10. To account for high-res screens, make image dimensions 2x as big as their displayed size</strong>
+
+Что бы качество фото было пиздатым, нужно на сайте урезать колово пикселей в два раза. То есть если хочу что бы на сайте была фотка 300х300, то нужно загрузить туда фотку 600х600. Это для телефонов и последних дорогих екранов, как в маках.
+
+---
+
+<strong>11. Compress images for a lower file size and better performance</strong>
+
+Сжимать фотки для оптимизации загрузки фото. Тула: https://squoosh.app/ (В ресурсах джонаса её почему-то нет)
+
+So compressing all your images using a tool like this is extremely important if you care about your website users.
+
+So it is tempting to skip this point, but please don't do so, all right?
+
+---
+
+<strong>12 When using multiple images side-by-side, make sure they have the exact same dimensions</strong>
+
+Если юзать несколько фото рядом, прировнять их к одному размеру. Прежде чем размещать изображения на сайте, убедитесь, что они имеют одинаковые размеры, или, по крайней мере, такое же соотношение сторон.
+
+<strong></strong>
