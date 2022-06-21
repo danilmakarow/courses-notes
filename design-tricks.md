@@ -285,4 +285,36 @@ So it is tempting to skip this point, but please don't do so, all right?
 
 Если юзать несколько фото рядом, прировнять их к одному размеру. Прежде чем размещать изображения на сайте, убедитесь, что они имеют одинаковые размеры, или, по крайней мере, такое же соотношение сторон.
 
+
+
+
+</details>
+
+
+<details><summary><strong> ICONS </strong></summary>
+
+# ИКОНКИ
+
+## USE GOOD ICONS
+
+<strong>1 Use a good icon pack, there are tons of free and paid icons packs</strong>
+
+Но бесплатные пакеты значков, такие как значки Phosphor, Ionicons и Icons8 действительно могут помочь вам в этом. Например, иконы «Phosphor», которые выглядят так, на самом деле очень, очень хороший источник высококачественных иконок. https://phosphoricons.com/
+
+Так же могут подойти обычные емодзи
+
+---
+
+<strong>Дальше много простой инфы и правил, но они очевидны и не требуют разьяснения, а требуют примеров. По этому не буду их переносить сюда.
+
+Здесь оставлю только то, на что стоит обратить внимание. 
+</strong>
+
+So these days in modern web design, basically all websites have some kind of feature blocks like this, where they use some icons to provide a visual information about each of their features.
+
+Now, if the icon pack that you chose does not have a fitting icon for your text, it might be time to look maybe for another icon pack, or you can also adjust your text maybe to something else, which is more fitting to one of the icons that is included in your icon pack, okay?
+
+
+
+
 <strong></strong>
