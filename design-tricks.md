@@ -1,7 +1,7 @@
 # WEB DESIGN
 an summary from course
 
-Джонас выделил 9 Личностей Сайтов, которые совмещают 10 ингридиентов. Ингридиент - элемент дизайна, и под каждую личность нужен определённый каждый ингридиент. 
+Джонас выделил 7 Личностей Сайтов, которые совмещают 10 ингридиентов. Ингридиент - элемент дизайна, и под каждую личность нужен определённый каждый ингридиент. 
 Есть разные виды сайтов, и на них нужны разные состовляющие дизайна. Именно об этом и пойдёт речь.
 
 <details><summary><strong> TYPOGRAPHY </strong></summary>
@@ -371,26 +371,35 @@ Now, if the icon pack that you chose does not have a fitting icon for your text,
 </details>
 
 
-<details><summary><strong> WHITESPACE </strong></summary>
+<details><summary><strong> WHITESPACE & VISUAL HIERARCHY </strong></summary>
 
-# Расстояние между контентом
+# Расстояние между контентом и выделение важного контента
 
-В теории по большей части простые правила, не буду копировать.
-
-Общее правило - горизонтальное расстояние всегда должно быть меньше вертикального. 
-
-Практика совмещена с следующим разделом - иерархией, по этому замети оставлю там.
+В общем - просто соблюдать правила, заметок к ним нет, в пдф все подробно расписано. Инструменты для этих пунктов тоже уже известны. Эти два параметра - крайне важны для читабельности и проффесионального вида сайта. Как и все предыдущие.
 
 
 
 
 </details>
 
+details><summary><strong> UI/UX </strong></summary>
 
-<details><summary><strong> VISUAL HIERARCHY </strong></summary>
+# Стиль и удобность сайта
 
-# Иерархия
+Вся теория в пдф. Заметки:
 
+
+So, there's absolutely no need to be original because creativity is quite overrated in web design. Now creativity might be important for the top 1% websites, or if you want to win some award. But the everyday designer like you and me should simply use patterns that are used on most of the websites out there.
+
+So there's absolutely nothing wrong with using well established patterns. Because remember a website exists because users want to reach a goal. And so if a page looks familiar, it will help the user navigate to page faster and therefore they will reach their goal faster as well.
+
+So familiarity with your layout is way more important than being original. Okay. Never forget that.
+
+
+
+Now, the reason why this is so important is that every time did we add an additional piece of content to the page, it will compete with all the other information that might be actually more relevant.
+
+</details>
 
 
 <strong></strong>
