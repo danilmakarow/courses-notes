@@ -382,7 +382,7 @@ Now, if the icon pack that you chose does not have a fitting icon for your text,
 
 </details>
 
-details><summary><strong> UI/UX </strong></summary>
+<details><summary><strong> UI/UX </strong></summary>
 
 # Стиль и удобность сайта
 
@@ -400,6 +400,16 @@ So familiarity with your layout is way more important than being original. Okay.
 Now, the reason why this is so important is that every time did we add an additional piece of content to the page, it will compete with all the other information that might be actually more relevant.
 
 </details>
+
+
+<details><summary><strong> ELEMENTS </strong></summary>
+
+# Заметки по елементам
+
+Accordion / выпадающий список
+  ---
+
+Гайд - сначала скрафтить все блоки так, как они должны выглядеть закрытыми. После создать класс опен, в котором поменять форматировку для открытых. Менять все елементы псевдоклассом с класса `open`.
 
 
 <strong></strong>
