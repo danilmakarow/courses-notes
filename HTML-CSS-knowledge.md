@@ -584,7 +584,7 @@ implicit - столбцы или колонки, внешний вид указ�
 
 </details>
 
-details> <summary>  Tables </summary>
+<details> <summary>  Tables </summary>
 
 
 ## Таблицы
