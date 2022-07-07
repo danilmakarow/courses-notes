@@ -112,6 +112,10 @@ target - Указывает где открыть гиперссылку. Без
 
 `<nav></nav>` - Контейнер для навигации. //The nav element represents a section of a page that links to other pages or to parts within the page: a section with navigation links.
 
+`<menu>` - Как нав, только для кнопок у веб-приложений, не обычный сайтов.
+
+`<main>` - Used  to display the main piece of content
+
 `<div></div>` - Тоже контейнер, но без предназначения. //And so now we should only use the div element when we don't want to attach a certain meaning to a certain container.
 
 `<article></article>` - Тоже контейнер, для основного контента
