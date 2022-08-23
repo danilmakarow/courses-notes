@@ -2,7 +2,7 @@
 <details> <summary>  HTML </summary>  </details> 
 -->
 
-# Fundamentals JavaScript
+# JavaScript Fundamentals 
 ###  Черновик с курса The Complete JavaScript Course 2022: From Zero to Expert! 
 
 <details> <summary>  переменные </summary> 
