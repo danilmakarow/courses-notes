@@ -55,7 +55,7 @@
 So an <strong>operator</strong> basically allows us to transform values or combine multiple values and really do all kinds of work with values. Есть много видов операторов, по порядку:
 <details> <summary>  mathematical or arihmetic operators </summary> 
   
-`+` `-` `/` `*` - очевидные операторы. 
+`+` `-` `/` `*` - очевидные операторы. `console.log(ageJonas * 2, ageJonas / 10);`
 
 `**` - возвести в степень. `2 ** 3` = 8
 
