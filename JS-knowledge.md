@@ -27,6 +27,7 @@
 </details> 
 
 <details> <summary>  types of data </summary> 
+  
 Есть два вида значений - обьекты и примитивные, все остальные.
   
 Примитивные:
@@ -50,6 +51,16 @@
 </details> 
 
 <details> <summary>  операторы </summary> 
+  
+So an <strong>operator</strong> basically allows us to transform values or combine multiple values and really do all kinds of work with values. Есть много видов операторов, по порядку:
+<details> <summary>  mathematical or arihmetic operators </summary> 
+  
+`+` `-` `/` `*` - очевидные операторы. 
+
+`**` - возвести в степень. `2 ** 3` = 8
+
+  </details> 
+
 typeof - выдаёт тип данных переменной или текста после оператора. ! багует при попытке определить тип значения null.
 </details> 
 
