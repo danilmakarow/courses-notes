@@ -77,4 +77,23 @@ So an <strong>operator</strong> basically allows us to transform values or combi
   
 </details> 
 
+<details> <summary>  Не большие разделы: фичи </summary> 
+  
+<details> <summary>  Template literals </summary> 
+  С ES6 новый путь вывода strings вместе с переменными. Как было раньше: 
+  
+  
+    const jonas =
+    "i'm " + firstName + ", a " + (now - birthYear) + " years old " + job + "!";
+
+  А вот новый путь
+
+    const jonasNew = `I'm ${firstName}, a ${now - birthYear} years old ${job}!`;
+  
+  То есть для вставки переменных и кода не нужно использовать операторы. Ахуенно! Так же для пепреноса на другую строку достаточно перенести на другую строку в коде, операторы не нужны
+  
+ I'm Jonas, a 46 years old teacher!
+  
+  </details> 
+  </details> 
 
