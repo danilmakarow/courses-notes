@@ -97,7 +97,9 @@ So an <strong>operator</strong> basically allows us to transform values or combi
   </details> 
   
 <details> <summary>  IF ELSE </summary> 
+  
   Состоит из блоков кода.  И любая переменная, которую мы объявляем внутри одного из этих блоков не будет доступа снаружи блока.
+  
     if (оцентиаветься) {
     Если положительное - этот код испольняется
     } else {
