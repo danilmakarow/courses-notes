@@ -36,8 +36,15 @@
 
 <strong>`String`</strong> - просто текст.
 
+<details> <summary>   
 <strong>`Boolean`</strong> - логический вид, принимает True/False
+</summary> 
+Пять значений что будут значить в false, когда мы пытаемся преобразовать их boolean. 
 
+`0, '', undefined, NaN, null` except of `falce` of course
+  
+  </details>
+  
 `Undefined` - Обьявленная переменная без значения, но позже может получить его.
 
 `Null` - Обьявленная переменная но без значения, и дать значение ей его нельзя.
