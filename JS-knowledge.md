@@ -36,14 +36,9 @@
 
 <strong>`String`</strong> - просто текст.
 
-<details> <summary>   
-<strong>`Boolean`</strong> - логический вид, принимает True/False
-</summary> 
-Пять значений что будут значить в false, когда мы пытаемся преобразовать их boolean. 
 
-`0, '', undefined, NaN, null` except of `falce` of course
-  
-  </details>
+<strong>`Boolean`</strong> - логический вид, принимает True/False
+
   
 `Undefined` - Обьявленная переменная без значения, но позже может получить его.
 
@@ -52,6 +47,10 @@
 `Symbo` (ES2015)- Переменная с значением, что нельзя изменить. Подробности будут в конце курса.
 
 `BigInt` (ES2020) - Может хранить огромные целые числа.
+
+Пять значений что будут значить в false, когда мы пытаемся преобразовать их boolean. 
+
+`0, '', undefined, NaN, null` except of `falce` of course
 
 <strong>JavaScript has dynamic typing: </strong>В JS в первых трёх типах нет необходимости обозначать тип данных в переменной, как в других языках. Он определяется сам. <strong>И тип данных хранит Само Значение, а не переменная. То есть бокс хранит значениe, что имеет тип данных</strong> Это значит, что можно без проблем менять тип данных в переменной.
 
@@ -96,7 +95,7 @@ So an <strong>operator</strong> basically allows us to transform values or combi
   
 </details> 
 
-<details> <summary>  Не большие разделы: фичи </summary> 
+<details> <summary>  Не большие разделы </summary> 
   
 <details> <summary>  Template literals </summary> 
   С ES6 новый путь вывода strings вместе с переменными. Как было раньше: 
@@ -124,6 +123,10 @@ So an <strong>operator</strong> basically allows us to transform values or combi
     } else {
     если falce в оценке - этот
     }
+
+  Так же можно писать действие без скобок - если оно не большое, в одну строку с функцией
+  
+    if (age === 18) console.log("YAY");
   
   </details> 
   </details> 
