@@ -23,7 +23,7 @@
   
     let fistname='Jonas';
 
-  
+  #
 </details> 
 
 <details> <summary>  types of data </summary> 
@@ -64,7 +64,7 @@
 
   <details><summary>  answer </summary> 10 </details>
   
- ## n=
+ #
 
 </details> 
 
@@ -87,6 +87,7 @@ So an <strong>operator</strong> basically allows us to transform values or combi
 
 `===` & `==` - приравнивают значения. Но тройной - строгий. Двойной - делает коррекцию типов. То есть двойной оператор покажет одно чилсло в двух видах - string & number равными, вернёт `true`. А строгий - вернёт `falce`, так как он не корректирует типы.
 
+##
   </details> 
   
   У разных операторов есть разный приоритет. Это обьясняет, почему в сравхениях двух примеров перед сравнением он считает эти примеры - у операторов сравнения низкий приоритет. Их список можно глянуть на mdn. Так же у разных операторов разный порядок начала считывания - с левой стороны примера или правой. Мб пригодится в дебагинге.
@@ -95,6 +96,7 @@ So an <strong>operator</strong> basically allows us to transform values or combi
 
 `typeof` - выдаёт тип данных переменной или текста после оператора. ! багует при попытке определить тип значения null.
   
+#
 </details> 
 
 <details> <summary>  Не большие разделы </summary> 
@@ -114,6 +116,8 @@ So an <strong>operator</strong> basically allows us to transform values or combi
   
  I'm Jonas, a 46 years old teacher!
   
+##
+
   </details> 
   
 <details> <summary>  IF ELSE </summary> 
@@ -129,8 +133,10 @@ So an <strong>operator</strong> basically allows us to transform values or combi
   Так же можно писать действие без скобок - если оно не большое, в одну строку с функцией
   
     if (age === 18) console.log("YAY");
-  
+  ##
   </details> 
+  
+#
   </details> 
 
 <details> <summary>  Функции </summary>  
@@ -141,5 +147,6 @@ So an <strong>operator</strong> basically allows us to transform values or combi
   
   В обратно направлении тоже работает: `console.log(String(23));` <string>Важно: необходимо писать с большой буквы, иначе не сработает.</string>
 
+  #
   
   </details> 
