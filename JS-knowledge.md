@@ -93,6 +93,19 @@ So an <strong>operator</strong> basically allows us to transform values or combi
 
 ##
   </details> 
+
+<details> <summary>  and, or & not operators </summary> 
+
+<img src="https://i.ibb.co/2PKDrXR/image.png" alt="image" width="65%">
+
+Логика работы их с булеаном на картинке. Пример использования всех трех: 
+  
+    console.log(driversLicense && goodVision);
+    console.log(driversLicense || goodVision);
+    console.log(!goodVision);
+  
+##
+  </details> 
   
   У разных операторов есть разный приоритет. Это обьясняет, почему в сравхениях двух примеров перед сравнением он считает эти примеры - у операторов сравнения низкий приоритет. Их список можно глянуть на mdn. Так же у разных операторов разный порядок начала считывания - с левой стороны примера или правой. Мб пригодится в дебагинге.
   
