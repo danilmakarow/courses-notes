@@ -155,6 +155,40 @@ So an <strong>operator</strong> basically allows us to transform values or combi
 
   ##
   </details> 
+
+<details> <summary> SWITCH </summary> 
+
+`switch` заменяет иф елсе, если нужно в зависимости от разных значений одной переменной выдадть разный результат. То есть тут только одна переменная проверяется. Вот пример:  
+
+    switch (day) {
+     case "monday": // day === 'monday'
+       console.log("plan course structure");
+        console.log("go to coding meetup");
+        break;
+     case "tuesday":
+       console.log("prepare videos");
+        break;
+     case "wednesday":
+      case "thursday":
+       console.log("write code exapmles");
+       break;
+     case "friday":
+      console.log("record videos");
+      break;
+    case "saturday":
+    case "sunday":
+       console.log("Enjoy the weekend :D");
+       break;
+    default:
+      console.log("not a valid day");
+   }
+
+Тут после кейса указываем значение, и после код который он выполнит. После закрыть этот блок кода - бреак, и в конце `default`- в случаэ если все кейсы получат false. Простая и удобная функция
+
+
+
+ ##
+  </details> 
   
 #
   </details> 
