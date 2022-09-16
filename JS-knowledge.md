@@ -189,6 +189,20 @@ So an <strong>operator</strong> basically allows us to transform values or combi
 
  ##
   </details> 
+
+<details> <summary> Expressions & Statements </summary> 
+
+Есть два вида кода - те что дают значение, и те что нет. Зачем это - в разных местах джс ожидает одно из двух - либо expression, либо statement. <string>Пример:</strong>
+
+    if(23>10) {
+        const str = "23 is bigger";
+    }
+
+Где можно считать весь код - statement, а вот `"23 is bigger"` в нём - expression. Так же код завершаюшийся на `;` - точно statement. а `120-338` или `true && false && !false` - expression, он даёт после себя значение. А вот сам if else блок в примере - просто прогоняет комманды последовательно, что-то делает но ничего не возвращает.
+
+
+ ##
+  </details> 
   
 #
   </details> 
