@@ -137,6 +137,8 @@ So an <strong>operator</strong> basically allows us to transform values or combi
 </details> 
 
 <details> <summary>  Не большие разделы </summary> 
+
+##
   
 <details> <summary>  Template literals </summary> 
   С ES6 новый путь вывода strings вместе с переменными. Как было раньше: 
@@ -232,7 +234,23 @@ So an <strong>operator</strong> basically allows us to transform values or combi
 
 <details> <summary>  Функции </summary>  
 
-  Делают какую-либо функцию
+Блоки кода, что можно вызвать. Так же есть заготовленные уже, выполняют какую-либо функцию
+  
+У функций есть несколько типов. Это - декларирующая. Из разницы - декларирующую можно вызвать ещё до ее обьявления. Фцию выражения - нет.
+
+    function calcAge1(birthYear) {
+     return 2022 - birthYear;
+    }
+
+Это функция - выражение, Expression. Из разницы - функция без имени, и то что возвращает сразу записывает в переменную
+
+    const calcAge2 = function (birthYear) {
+      return 2022 - birthYear;
+    };
+
+Arrow function. короткая. Если в одну строку - можно без {} и без return  - они уже вшиты и будут работать автоматом. Разница - тут нет кейворда её вызова, подробнее - позже в курсе.
+
+    const calcAge3 = (birthYear) => 2022 - birthYear;
   
 Переоброзование String to Number: `console.log(Number(inputYear));` Если приобразовать не цифры - выдаст NaN - Not a Number.(Технически это неправильная цифра)
   
@@ -241,3 +259,14 @@ So an <strong>operator</strong> basically allows us to transform values or combi
   #
   
   </details> 
+  
+  <details> <summary>  Массивы </summary>  
+    
+  Методы - встроенные функции для работы с массивами. Как операторы для массивов
+    
+ `friends.push("Jay", 1552);` - изменяет массив, добавляя к нему новые значения в конец. `friends.unshift("John");`Добавляет в начало.  Так же сама по себе функция являеться Expression - возвращает длину нового массива: `const newLength = friends.push("Jay", 1552);` - Переменная будет хранить длину обновлённого массива.
+    
+  #
+  
+  </details> 
+  
