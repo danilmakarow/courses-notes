@@ -262,7 +262,7 @@ Arrow function. короткая. Если в одну строку - можно
   
   </details> 
   
-  <details> <summary>  Массивы </summary>  
+  <details> <summary>  Array </summary>  
 
 ### Базовые операции:
 
@@ -283,7 +283,25 @@ Arrow function. короткая. Если в одну строку - можно
 
 `friends.includes("Peter")` - ES6, более современная версия предыдущего, проверяет на наличие елемент и возвращает буллиан. Проверяет без type coersion, как `===`. Можно круто сочетать с if else.
     
+
   #
   
   </details> 
   
+  <details> <summary>  Objects </summary>  
+
+### Базовые операции:
+
+
+  #
+  
+  </details> 
+  
+  <details> <summary>  For loop </summary>  
+
+### Базовые операции:
+
+
+  #
+  
+  </details> 
