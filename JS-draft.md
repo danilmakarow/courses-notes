@@ -3,6 +3,13 @@
 -->
 # Summary from JavaScript course
 
+<details> <summary>генерал драфтс</summary>  
+Классный пример как подходить к разработке аппа, исходя из нарисовки функционала
+
+<img src="https://i.ibb.co/89smpkp/image.png" alt="image" border="0">
+
+</details>   
+
 <details> <summary>  DOM </summary> 
 
 ## Document Object Model
