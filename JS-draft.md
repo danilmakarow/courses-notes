@@ -8,7 +8,11 @@
 
 <img src="https://i.ibb.co/89smpkp/image.png" alt="image" border="0">
 
-  <strong>AST</strong> - abstract syntax tree.
+По движку JS
+
+Runtime is just like a box that contains all the JavaScript related stuff that we need.
+
+<strong>AST</strong> - abstract syntax tree.
 
 </details>   
 
