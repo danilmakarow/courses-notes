@@ -8,6 +8,8 @@
 
 <img src="https://i.ibb.co/89smpkp/image.png" alt="image" border="0">
 
+  <strong>AST</strong> - abstract syntax tree.
+
 </details>   
 
 <details> <summary>  DOM </summary> 
