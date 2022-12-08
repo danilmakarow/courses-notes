@@ -88,3 +88,47 @@ Funcion expression & arrow: хранятся в переменных, поэто
 ##
  </details> 
 
+
+
+<details><summary>Data Structures</summary>
+  
+##
+
+Деструктуризация - робота с данными - примитивными и ссылочными.
+
+<details><summary>Destructuing Arrays & Objects</summary>
+  
+Начнем с массивов.
+  
+    const profile = ["Oluwatobi", "Sofela", "codesweetly.com"];
+    const [firstName, lastName, website] = profile;
+
+Тут было создано 3 переменных, хранящих три елемента массива. Если нужно пропустить один елемент в массиве: `[firstName, , lastName, website] = profile;`. так же можно массивы внутри массивов: `const [starter, [main, test]] = restaurant.order;`. И придавать им дефолтное значение: `const [h = 1, k = 1, l = 1] = [2, 4];`. Вывод будет выглядеть: `2 4 1`. 
+
+Дальше обьекты.
+
+    let a = 22;
+    let b = 66;
+    const obj = {
+      a: 12,
+      b: 55
+    };
+    ({ a, b } = obj);
+
+Для деструктуризации обьекта нужно что бы переменные были названы как свойства в нем. Это фикситься позже. Если нужно сделать любую деструктуризацитю с уже существующими переменными - нужно завести в скобки`()`, иначе ошибка. Фиксим неудобство с названиями: 
+  
+    const {
+      name: restName = "name",
+      openingHours: hours,
+      categories: tags,
+      secondMenu: menu = "no second menu",
+      thirdMenu
+    } = restaurant;
+
+Где то что до двоеточия - свойство, после - переменная и = дефаултное значение. Дефаултное значение будет применяться если свойства в обьекте нет. Если в обьекте нет свойства и не указано дефаулт - переменная будет undifined
+  
+##
+</details> 
+  
+##
+</details> 
