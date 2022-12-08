@@ -1,8 +1,9 @@
 <!-- 
-<details><summary>HTML</summary>
 
+<details><summary>HTML</summary>
 ##
 </details> 
+
 -->
 # Summary from JavaScript course
 
@@ -134,6 +135,10 @@ Funcion expression & arrow: хранятся в переменных, поэто
 
 Где будет созданы две переменных: `openSat` & `closeSat` с значениями 0 24, как в обьекте. То есть вместо названия после двоеточия открываеться новая деструктуризация, где обьявлены, названы и даны значения двум переменным.
   
+##
+</details> 
+
+<details><summary>Sprear ... Opertor</summary>
 ##
 </details> 
   
