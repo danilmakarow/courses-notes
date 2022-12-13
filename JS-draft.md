@@ -164,6 +164,28 @@ Rest Arguments. Использование в функции для аргуме
 
 ##
 </details> 
-  
+
+<details><summary>Optional Chain Operator</summary>
+
+`?.` Проверяет есть ли свойство, если нет - сразу вернет undefined, избежавши ошабку. Проверяет по методу Nullish - только Undefined and Null дадут фолс. 0 и "" - пройдут.
+
+    console.log(restaurant.openingHours.mon?.open);
+    console.log(restaurant.openingHours?.fri?.open);
+
+Это на свойствах. На методах также, после его названия и перед агрументом:
+
+    console.log(restaurant.order?.(2, 2));
+    console.log(restaurant.orderPizzas?.(2, 2)) ?? 'Method doesnt exist';
+
+На втором примере - скомбинировано с дефолтным значением с помощью оператора нулевого слияния (Nullish Coalescing Operator). Если метода не зуществует будет выведена строка в консоль. Так же работает с обьектами в массивах:
+
+    const users = [{ name: 'Jonas', email: 'dknvdk@danil.io' }];
+    console.log(users[0]?.name ?? 'Array empty');
+
+Проверяет есть ли свойство в елементе массива. Если нет выведет сообщение.
+
+##
+</details> 
+
 ##
 </details> 
