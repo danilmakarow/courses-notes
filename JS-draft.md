@@ -237,5 +237,45 @@ Rest Arguments. Использование в функции для аргуме
 ##
 </details> 
 
+<details><summary>Sets & Maps</summary>
+Структуры данных. 
+
+### maps methods: has, get, set, delete, clear, size
+
+    const gameEvents = new Map([
+      [17, '⚽️ GOAL'],
+      [36, '🔁 Substitution'],
+      [47, '⚽️ GOAL']
+    ]); // обозначать свойства можно так
+
+    rest.set('name', 'Classiko Italiano'); // или так
+
+    console.log([...question]); // деструктуризация работает, и стандартные методы:
+    console.log([...question.entries()]);
+    console.log([...question.keys()]);
+    console.log([...question.values()]);
+    rest.get(time > rest.get('open') && time < rest.get('close'))
+    rest.has('categories')
+    gameEvents.delete(64) // делитит по кею
+
+### Sets
+
+collection of unique values
+
+Принимает итераторы. Обьявление:
+
+    const ordersSet = new Set([
+      'Pasta',
+      'Pizza',
+      'Pizza',
+      'Risotto',
+    ]);
+
+Методы: size, has, add, delete, clear
+
+
+##
+</details> 
+
 ##
 </details> 
