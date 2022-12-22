@@ -205,13 +205,33 @@ Rest Arguments. Использование в функции для аргуме
 
 Другие методы:
 
-passenger.toLowerCase();
-passenger.toUpperCase();
-loginEmail.trim(); // обрезает энтеры и лишние пробелы в до и после текста.
-message2.repeat(5);
-message.padStart(25, '+').padEnd(35, '-') // добавляют указаных знаков до указанной длины стринга.
-name.split(' '); // вернет массив с разделеным стрингом по указанному елементу.
-readyName.join(' '); //соеденит
+    passenger.toLowerCase();
+    passenger.toUpperCase();
+    loginEmail.trim(); // обрезает энтеры и лишние пробелы в до и после текста.
+    message2.repeat(5);
+    message.padStart(25, '+').padEnd(35, '-') // добавляют указаных знаков до указанной длины стринга.
+    name.split(' '); // вернет массив с разделеным стрингом по указанному елементу.
+    readyName.join(' '); //соеденит елементы массива через указанный стринг. 
+
+Пример их комбинации: Принимает через ентр текст_в_таком_формате, а возвращаетВотТаком.
+
+    document.querySelector('button').addEventListener('click', function () {
+     console.clear();
+     const text = document.querySelector('textarea').value;
+     document.querySelector('textarea').value = '';
+     let success = 1;
+
+     for (let string of text.split('\n')) {
+       string = string.toLowerCase().trim();
+       let camel = [];
+        for (const word of string.split('_'))
+          camel.push(word.replace(word[0], word[0].toUpperCase()));
+
+        camel[0] = camel[0].replace(camel[0][0], camel[0][0].toLowerCase());
+        console.log(camel.join('').padEnd(25, ' ') + '✅'.repeat(success));
+       success++;
+     }
+    });
 
 
 ##
