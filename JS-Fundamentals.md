@@ -278,15 +278,95 @@ Arrow function. короткая. Если в одну строку - можно
 
     const calcAge3 = (birthYear) => 2022 - birthYear;
 
-Так же у него куча приколов: 
-
-Не получает свой `this` keyword как метод, и использует кейворд функции в которую вложен, а если нет - глобальный window. И не получает свой обьект с аргументами, как это делают другие функции в `Execution context`.
+Так же он не получает свой `this`, и использует кейворд выше по скоупу. И не получает свой обьект с аргументами, как это делают другие функции в `Execution context`.
   
-Переоброзование String to Number: `console.log(Number(inputYear));` Если приобразовать не цифры - выдаст NaN - Not a Number.(Технически это неправильная цифра)
-  
-  В обратно направлении тоже работает: `console.log(String(23));` <string>Важно: необходимо писать с большой буквы, иначе не сработает.</string>
+### Другие возможности функций:
 
-  `prompt("What do u want to know about Jonas?");` - функция вывода всплывающего окна. В переменной возвращает введённый текст
+#### Давать значение по умолчанию аргументам, что будет применено если их не будет. 
+
+    const createBookiing = function (
+      flightNum,
+      passangersNum = 1,
+      price = 199 * passangersNum
+    )
+
+#### Беря обьекты за аргументы - он не копирует их, а использует изначальные. По этому при измене агрумента меняеться и сам обьект вне функции.
+
+#### Функции могут возвращать функции.
+
+    const greetArr = greeting => name => console.log(`${greeting} ${name}`);
+    greetArr('Hi')('Jonas'); // Hi Jonas
+
+#### HIGHER-ORDER FUNCTIONS, функции высокого порядка.
+
+// В програмаче есть концепт абстракции.Функция не зависит от других, и выполняет только то что от нее зависит. И достигаеться она вызовом другой функции внутри этой
+
+    const oneWord = function (str) {
+     return str.replaceAll(' ', '').toLowerCase();
+    };
+
+    // Higher order function
+    const transformer = function (str, fn) {
+      console.log(`Transformed string: ${fn(str)}`);
+      console.log(`Transformed by: ${fn.name}`);
+    };
+
+    transformer(' JavaScript is the best', oneWord);
+
+#### Робота с кейвордами
+
+Для кейвордов важно, где его вызывают, так как в зависимости от этого он меняется.  `lufthansa.buyPlane()` в коде отдельно - вызовет метод с кейвордом обьекта, так как тут идет обращение к обьекту. Но в других местах, где ожидаються функции - как евентах, там `lufthansa.buyPlane` вернет сам метод, не в контексте своего обьекта, и This кейворд измениться.
+
+CALL method.
+Мгновенно вызвыает функцию, где первый агрумент - обьект, которого береться кейворд this. Остальные - агрументы для функции.
+
+    book.call(eurowings, 23, 'Sarah'); // при вызове первый - обьект с кейвордом, остальное - агрументы.
+
+Apply method. То же самое, но принимает аргументы, кроме первого обьекта, в массиве, и саам их деструктуризирует для функции.
+
+    const flightData = [5412, 'Denis Groshev'];
+
+    book.apply(swiss, flightData);
+    book.call(swiss, ...flightData); 
+    //Оба вызова делают одну работу.
+
+BIND METHOD. Возвращает новую функцию с кейвордом обьекта, указанного в агрументе.
+
+    const bookEW = book.bind(eurowings);
+  
+  Так как для кейворда важно, где его вызывают, ведь в зависимости от этого он меняеться, это может вызвать проблемы. Бинд поможет это исправить. Супер полезно для евент хэндлеров, так как у них свой Тхис кейворд - элемент.
+
+    document.querySelector('.buy').addEventListener('click', lufthansa.buyPlane.bind(lufthansa));
+
+#### immediatly invoked Function Expression(IIFE)
+
+Если поместить функцию в скобки, можно ее создать не прикрепляя переменную, имени. И тем самым не сохраняя. И мнгновенно ее вызвать. Одноразовая функция.
+
+    (function () {
+      console.log('Again and, Again and, Again');
+    })();
+    (() => console.log('Again and, Again and, Again'))();
+
+### Closures
+
+The closure is then basically this variable environment attached to the function, exactly as it was at the time and place that the function was created.
+
+Важно не то, где Функция привязана к переменнолй а то, где прописан сам код - function(). Там она и закрепиться в Memory Heap, свалке. И при ее вызове именно оттуда она и возьмет Scope Chain. А не как this Keyword, где зависит место его вызова. !!! Тут важно место обьявления. А где и как привязана к переменной - не суть важна.
+// Scope Chain функции зависит от места обьявления самой функции, а не вызова.
+
+    let f;
+
+    const g = function () {
+     const a = 23;
+     f = function () {
+        console.log(`A is ${a}`);
+      };
+    };
+
+    g();
+    f(); // A is 23
+
+Тут Ф получил доступ к переменной А, уже после ее закрытия и вывода с Колл Стака в функции g. Потому что она сохранилась в его Closure, что сохранила цепь ссылок в месте создания - функции g, где доступ к этой переменной А был.
 
   #
   
