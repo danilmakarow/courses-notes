@@ -21,5 +21,25 @@
 
  </details> 
 
+<!-- <details> <summary>  CLI terminal </summary>  -->
+
+CLI terminal
+
+Упрощает задачи, имея определённый функционал. Например, создание компонента:
+
+    ng generate component servers
+
+Или короче
+
+    ng g c servers
+
+Эта команда создаст компонент - файлы тс хтмл цсс, пропишит основу и добавит в модуль.
+
+
+
+
+ </details> 
+
+
 
 <a href='https://metanit.com/web/angular2/2.3.php'>Говно все это, вот офигенная документалка по работе Ангуляра</a>
