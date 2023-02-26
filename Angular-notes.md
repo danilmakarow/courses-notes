@@ -339,6 +339,11 @@ CLI terminal
 
      <p appHoverHighlight>Im element with my own Directive! - hover highlight</p>
 
+### Вызов директив с свойствами. 
+
+Можно вызвать директиву и передать ей данные, для этого внутри её нужно прописать @Input с свойством, что импортируеться. И при вызове на элементе директивы прописать обычную привязку свойства: `<p appBetterHighlight [highlightColor]="'yellow'" [defaultColor]="'#333'">Im element with my own Directive! - better
+    highlight</p>`
+
 ### Способы манипуляции обьектом с помощью директив.
 
 #### Renderer2
